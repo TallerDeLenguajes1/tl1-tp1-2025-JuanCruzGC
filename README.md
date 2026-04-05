@@ -1,19 +1,19 @@
-#Archivo .gitignore - Punto 2
+# Archivo .gitignore - Punto 2
 El archivo **.gitignore** sirve para dar una orden a git para no subir cierto tipo de archivos que por alguna razon no queremos
 mostrar en el repositorio.
 
-##¿Por qué es conveniente incluirlo?
+## ¿Por qué es conveniente incluirlo?
 Porque de esta manera ignoramos cierto tipos de archivos, manteniendolos ocultos para las personas que visitan el repositorio.
 
-##¿Cuando debemos incluirlo?
+## ¿Cuando debemos incluirlo?
 Debemos incluirlo por ejemplo, cuando guardamos un codigo en C tambien se guarda un ejecutable del mismo archivo, este ejecutable
 es insignificante para el repositorio, por lo que para mantener el repositorio limpio y navegable nos conviene ignorar este archivo.
 
-##¿Como configuraria el archivo .gitignore?
+## ¿Como configuraria el archivo .gitignore?
 Deberiamos incluir archivos temporales que se crean a partir del IDE, informacion sensible acerca del proyecto, archivos generados por
 compilacion, etc.
 
-##¿Como ignorar un archivo _ignorado_.txt?
+## ¿Como ignorar un archivo _ignorado_.txt?
 El archivo .gitignore utiliza una sintaxis global que le permite omitir archivos especificos, tipos de archivos como por ejemplo 
 todos los archivos .txt o bien rutas enteras. Los elementos de la siontaxis son los siguientes:
 - * : Identificador universal, por ejemplo si ponemos *.txt, estariamos ignorando todos los archivos txt ubicados.
