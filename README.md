@@ -44,10 +44,10 @@ Falta el ; antes de llamar a la funcion printf y antes de cerrar la funcion main
 ### Linea 12
 Falta el operador de direccion & al llamar a la funcion scanf, esto esta haciendo que la funcion scanf no sepa donde guardar el valor recibido por el usuario.
 
-##Linea 2
+## Linea 2
 No esta incluida la libreria que nos permite mostrar por pantalla (stdio.h)
 
-##Linea 4
+## Linea 4
 La funcion duplicar_numero es una funcion void (no retorna nada) y recibe un numero por valor, es decir, recibe una copia del numero. Esto ocasiona que modifique el valor copia pero no modifica el valor original, por lo que deberiamos pasarle un puntero y que modifique directamente el valor que contiene la variable a la que apunta el puntero.
 
 
