@@ -51,9 +51,13 @@ No esta incluida la libreria que nos permite mostrar por pantalla (stdio.h)
 La funcion duplicar_numero es una funcion void (no retorna nada) y recibe un numero por valor, es decir, recibe una copia del numero. Esto ocasiona que modifique el valor copia pero no modifica el valor original, por lo que deberiamos pasarle un puntero y que modifique directamente el valor que contiene la variable a la que apunta el puntero.
 
 # Creacion de archivos - Punto 4
-## ¿Que archivos ve en el repositorio?
+## Apartado c
+### ¿Que archivos ve en el repositorio?
 Veo el archivo recien creado (tp1_1.c) y su archivo ejecutable, una carpeta que se llama .vscode y la carpeta del punto 2 que adentro contiene los archivos .c del codigo misterioso, codigo sin funcionar y sus respectivos ejecutables.
 
-## ¿Cuál cree que no hace falta que esté?
+### ¿Cuál cree que no hace falta que esté?
 Ningun ejecutable hace falta, ni la carpeta .vscode
-
+## Apartado g
+Los apartados 2 y 3 muestran lo mismo ya que el puntero esta apuntando a apuntado, es decir que esta guardando la direccion de memoria de apuntado, por eso cuando mostramos la direccion de memoria de apuntado y el puntero, coinciden.
+En el punto 4 obtenemos la direccion de memoria de puntero, es decir, obtenemos el lugar donde se esta guardando la direccion de memoria de apuntado.
+No es igual a los anteriores ya que la direccion de memoria del puntero no es lo mismo que la direccion de memoria a la que apunta el puntero.
