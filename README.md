@@ -50,5 +50,10 @@ No esta incluida la libreria que nos permite mostrar por pantalla (stdio.h)
 ### Linea 4
 La funcion duplicar_numero es una funcion void (no retorna nada) y recibe un numero por valor, es decir, recibe una copia del numero. Esto ocasiona que modifique el valor copia pero no modifica el valor original, por lo que deberiamos pasarle un puntero y que modifique directamente el valor que contiene la variable a la que apunta el puntero.
 
+# Creacion de archivos - Punto 4
+## ¿Que archivos ve en el repositorio?
+Veo el archivo recien creado (tp1_1.c) y su archivo ejecutable, una carpeta que se llama .vscode y la carpeta del punto 2 que adentro contiene los archivos .c del codigo misterioso, codigo sin funcionar y sus respectivos ejecutables.
 
+## ¿Cuál cree que no hace falta que esté?
+Ningun ejecutable hace falta, ni la carpeta .vscode
 
